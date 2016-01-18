@@ -1,0 +1,78 @@
+2016-01-18 09:14:21 5852 [Note] Plugin 'FEDERATED' is disabled.
+2016-01-18 09:14:21 5852 [Note] InnoDB: The InnoDB memory heap is disabled
+2016-01-18 09:14:21 5852 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2016-01-18 09:14:21 5852 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-01-18 09:14:21 5852 [Note] InnoDB: Not using CPU crc32 instructions
+2016-01-18 09:14:21 5852 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2016-01-18 09:14:21 5852 [Note] InnoDB: Completed initialization of buffer pool
+2016-01-18 09:14:21 5852 [Note] InnoDB: Setting log file C:\Users\MuscioCraft\Desktop\idp\mysql\data\ib_logfile101 size to 5 MB
+2016-01-18 09:14:21 5852 [Note] InnoDB: Setting log file C:\Users\MuscioCraft\Desktop\idp\mysql\data\ib_logfile1 size to 5 MB
+2016-01-18 09:14:22 5852 [Note] InnoDB: Renaming log file C:\Users\MuscioCraft\Desktop\idp\mysql\data\ib_logfile101 to C:\Users\MuscioCraft\Desktop\idp\mysql\data\ib_logfile0
+2016-01-18 09:14:22 5852 [Warning] InnoDB: New log files created, LSN=1626134
+2016-01-18 09:14:22 5852 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-01-18 09:14:22 5852 [Note] InnoDB: 128 rollback segment(s) are active.
+2016-01-18 09:14:22 5852 [Note] InnoDB: Waiting for purge to start
+2016-01-18 09:14:22 5852 [Note] InnoDB: 5.6.13 started; log sequence number 1626636
+2016-01-18 09:14:22 5852 [Warning] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: 7ae4130d-bdbb-11e5-a2bc-2c600c86531e.
+2016-01-18 09:14:22 5852 [Note] Server hostname (bind-address): '*'; port: 3307
+2016-01-18 09:14:22 5852 [Note] IPv6 is available.
+2016-01-18 09:14:22 5852 [Note]   - '::' resolves to '::';
+2016-01-18 09:14:22 5852 [Note] Server socket created on IP: '::'.
+2016-01-18 10:14:03 2312 [Note] Plugin 'FEDERATED' is disabled.
+2016-01-18 10:14:03 2312 [Note] InnoDB: The InnoDB memory heap is disabled
+2016-01-18 10:14:03 2312 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2016-01-18 10:14:03 2312 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-01-18 10:14:03 2312 [Note] InnoDB: Not using CPU crc32 instructions
+2016-01-18 10:14:03 2312 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2016-01-18 10:14:03 2312 [Note] InnoDB: Completed initialization of buffer pool
+2016-01-18 10:14:03 2312 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-01-18 10:14:03 2312 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1633837 in the ib_logfiles!
+2016-01-18 10:14:03 2312 [Note] InnoDB: Database was not shutdown normally!
+2016-01-18 10:14:03 2312 [Note] InnoDB: Starting crash recovery.
+2016-01-18 10:14:03 2312 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2016-01-18 10:14:03 2312 [Note] InnoDB: Restoring possible half-written data pages 
+2016-01-18 10:14:03 2312 [Note] InnoDB: from the doublewrite buffer...
+2016-01-18 10:14:04 17a0  InnoDB: Error: table 'bzet/klnat'
+InnoDB: in InnoDB data dictionary has tablespace id 6,
+InnoDB: but the tablespace with that id has name bzet/klant.
+InnoDB: Have you deleted or moved .ibd files?
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2016-01-18 10:14:04 2312 [Note] InnoDB: 128 rollback segment(s) are active.
+2016-01-18 10:14:04 2312 [Note] InnoDB: Waiting for purge to start
+2016-01-18 10:14:04 2312 [Note] InnoDB: 5.6.13 started; log sequence number 1633837
+2016-01-18 10:14:04 2312 [Note] Server hostname (bind-address): '*'; port: 3307
+2016-01-18 10:14:04 2312 [Note] IPv6 is available.
+2016-01-18 10:14:04 2312 [Note]   - '::' resolves to '::';
+2016-01-18 10:14:04 2312 [Note] Server socket created on IP: '::'.
+2016-01-18 10:14:04 2312 [Note] Event Scheduler: Loaded 0 events
+2016-01-18 10:14:04 2312 [Note] C:\Users\MuscioCraft\Desktop\idp/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
+2016-01-18 10:14:11 2312 [Warning] InnoDB: Cannot open table bzet/klant from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2016-01-18 10:14:11 2312 [Warning] InnoDB: Cannot open table bzet/klant from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2016-01-18 10:14:12 2312 [Warning] InnoDB: Cannot open table bzet/klant from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2016-01-18 10:14:13 2312 [Warning] InnoDB: Cannot open table bzet/klant from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2016-01-18 10:14:17 2312 [Warning] InnoDB: Cannot open table bzet/klant from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2016-01-18 10:14:19 2312 [Warning] InnoDB: Cannot open table bzet/klant from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2016-01-18 10:15:43 8296 [Note] Plugin 'FEDERATED' is disabled.
+2016-01-18 10:15:43 8296 [Note] InnoDB: The InnoDB memory heap is disabled
+2016-01-18 10:15:43 8296 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2016-01-18 10:15:43 8296 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-01-18 10:15:43 8296 [Note] InnoDB: Not using CPU crc32 instructions
+2016-01-18 10:15:43 8296 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2016-01-18 10:15:43 8296 [Note] InnoDB: Completed initialization of buffer pool
+2016-01-18 10:15:43 8296 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-01-18 10:15:43 8296 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1633847 in the ib_logfiles!
+2016-01-18 10:15:43 8296 [Note] InnoDB: Database was not shutdown normally!
+2016-01-18 10:15:43 8296 [Note] InnoDB: Starting crash recovery.
+2016-01-18 10:15:43 8296 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2016-01-18 10:15:43 8296 [Note] InnoDB: Restoring possible half-written data pages 
+2016-01-18 10:15:43 8296 [Note] InnoDB: from the doublewrite buffer...
+2016-01-18 10:15:43 8296 [Note] InnoDB: 128 rollback segment(s) are active.
+2016-01-18 10:15:43 8296 [Note] InnoDB: Waiting for purge to start
+2016-01-18 10:15:43 8296 [Note] InnoDB: 5.6.13 started; log sequence number 1633847
+2016-01-18 10:15:43 8296 [Note] Server hostname (bind-address): '*'; port: 3307
+2016-01-18 10:15:43 8296 [Note] IPv6 is available.
+2016-01-18 10:15:43 8296 [Note]   - '::' resolves to '::';
+2016-01-18 10:15:43 8296 [Note] Server socket created on IP: '::'.

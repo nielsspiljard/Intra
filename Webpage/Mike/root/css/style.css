@@ -267,6 +267,29 @@
 
 	/* Buttons */
 		
+	.log
+	{
+
+		margin-left: 400px;		
+	}
+
+
+	.logb
+	{
+		margin: center;
+	}
+
+	.logi
+	{
+		margin-left: 0px;
+	}
+
+	.log_button
+	{
+		margin-top: 10px;
+
+	}
+
 	.button
 	{
 		position: relative;
@@ -289,6 +312,31 @@
 	.button:hover
 	{
 		background: #70AA7E;
+		color: #FFF !important;
+	}
+	
+	.button-1
+	{
+		position: relative;
+		display: inline-block;
+		background: #f1290e;
+		padding: 0.8em 2em;
+		text-decoration: none !important;
+		font-size: 1.2em;
+		font-weight: 300;
+		color: #FFF !important;
+		-moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		-webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		-o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		-ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		text-align: center;
+		border-radius: 0.25em;
+	}
+
+	.button-1:hover
+	{
+		background: #d8240c;
 		color: #FFF !important;
 	}
 
